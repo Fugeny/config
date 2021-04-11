@@ -27,6 +27,8 @@ Plug 'scrooloose/nerdcommenter'
 " Git
 Plug 'tpope/vim-fugitive'
 
+Plug 'Yggdroot/indentLine'
+
 call plug#end()
 
 " *************** vim常用的基本设置 ***************
@@ -117,7 +119,7 @@ set cursorcolumn                                                " 突出显示�
 "let g:solarized_termcolors=256
 "colorscheme solarized                                           " 设置solarized高亮主题
 "let g:gruvbox_termcolors=16
-"colorscheme gruvbox                                             " 设置gruvbox高亮主题
+colorscheme gruvbox                                             " 设置gruvbox高亮主题
 
 
 " ************** vim的配色 **************
